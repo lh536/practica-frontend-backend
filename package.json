@@ -1,24 +1,21 @@
 {
-    "name": "plantilla-tailwindcss-basica",
+    "name": "practica_frontend_backend",
     "version": "1.0.0",
-    "description": "",
+    "description": "Practica Frontend - Backend",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "npx tailwindcss build ./src/css/tailwind.css -o ./build/css/main.css",
-        "build:postcss": "postcss ./src/css/tailwind.css -o ./build/css/main.css",
-        "build:postcssW": "postcss ./src/css/tailwind.css -o ./build/css/main.css -w"
+        "dev": "vite serve src",
+        "build": "vite build src --outDir ../dist --minify true --emptyOutDir true --base ./"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "autoprefixer": "^10.0.1",
-        "cssnano": "^4.1.10",
-        "postcss": "^8.1.4",
-        "postcss-cli": "^8.2.0",
-        "postcss-import": "^13.0.0",
-        "tailwindcss": "^1.9.6"
-    },
-    "dependencies": {}
+        "@tailwindcss/forms": "^0.3.2",
+        "@tailwindcss/jit": "^0.1.18",
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.9",
+        "tailwindcss": "^2.1.1",
+        "vite": "^2.1.5"
+    }
 }

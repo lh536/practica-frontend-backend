@@ -18,7 +18,11 @@ Este repositorio contiene un proyecto para practicar la integración entre front
 
 [TailwindCSS](https://tailwindcss.com/) Framework de CSS.
 
-[MongoDB](https://www.mongodb.com) Base de Datos.
+[MySQL](https://www.mysql.com/) Base de Datos.
+
+[NodeJS](https://nodejs.org/en/) Backend.
+
+[ViteJS](https://vitejs.dev/) Automatizador/Empaquetador.
 
 ---
 
@@ -26,9 +30,7 @@ Este repositorio contiene un proyecto para practicar la integración entre front
 
 
 
-``npm install``
-
-Instala todas las dependencias necesarias para iniciar. 
+``npm install`` Instala todas las dependencias necesarias para iniciar. 
 
 
 
@@ -36,4 +38,4 @@ Instala todas las dependencias necesarias para iniciar.
 
 ##### Notas
 
-El **index.html** para iniciar el proyecto lo encuentra en la carpeta **./build**.
+``npm run dev`` Para iniciar el proyecto.
